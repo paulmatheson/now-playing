@@ -18,3 +18,11 @@ A lightweight web component that displays my currently playing (or recently play
 
 1. Clone the repo
 2. Create a `.env` file with your Last.fm API key:
+
+LASTFM_KEY=your_key_here
+
+3. Run `netlify dev`
+
+## Deploy
+
+Deploy to Netlify and add `LASTFM_KEY` as an environment variable in Site Settings → Environment Variables.
