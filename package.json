@@ -1,0 +1,12 @@
+{
+  "name": "now-playing",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
