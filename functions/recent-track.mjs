@@ -26,6 +26,7 @@ export async function handler() {
       artist: track.artist["#text"],
       coverArt: track.image?.[1]?.["#text"] || "",
       playedAt: track.date?.uts || null,
+      url: track.url,
     };
 
     return {

@@ -35,6 +35,7 @@ function updateUI(data) {
 
   artist.textContent = data.artist;
   title.textContent = data.title;
+  document.getElementById("track-link").href = data.url;
 
   if (data.coverArt) {
     coverArt.src = data.coverArt;
