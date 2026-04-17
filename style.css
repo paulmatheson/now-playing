@@ -60,6 +60,14 @@ body {
   text-overflow: ellipsis;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .artist {
   font-size: 13px;
   color: var(--muted);
